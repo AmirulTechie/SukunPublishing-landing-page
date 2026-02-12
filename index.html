@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Tiro+Bangla:ital@0;1&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        * {
+            font-family: "Hind Siliguri", sans-serif;
+        }
+        button, footer{
+            font-family: "Tiro Bangla", serif;
+        }
+    </style>
+    <title>সুুকুন পাবলিশিং । শব্দে আঁকা স্বপ্ন</title>
+</head>
+
+<body class="bg-[#FDF8F1]">
+    <header>
+        <!-- Top section -->
+        <section class="bg-[#004e2e] flex justify-around items-center p-1">
+            <div class="social-icons flex gap-3">
+                <a href="#"><i class="fa-brands fa-facebook-f text-white text-sm"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp text-white text-sm"></i></a>
+                <a href="#"><i class="fa-brands fa-telegram text-white text-sm"></i></a>
+            </div>
+            <div class="contact-no">
+                <p class="text-white text-[14px]" style="font-family: 'Tiro Bangla', serif;">যোগাযোগ - ০১৮১৯ ৮৮ ৭৭ ৫৫
+                </p>
+            </div>
+        </section>
+        <!-- Middle section -->
+        <section class="bg-[#008854] flex justify-center items-center py-4 px-4">
+            <div class="head-logo w-[90px]">
+                <img src="./images/header-logo.png" alt="Logo" class="w-full">
+            </div>
+            <div class="flex items-center bg-white p-1 rounded-md w-full max-w-[550px] mx-28">
+                <input type="search" placeholder="প্রিয় পাঠক, সুকুনের কোন বইটি খুঁজছেন?"
+                    class="grow px-4 py-1.5 text-[#007846] placeholder:text-gray-400 focus:outline-none text-[15px]">
+                <button class="bg-[#008854] hover:bg-[#006b41] text-white px-4 py-2 rounded-md transition-colors">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <div class="flex gap-2.5">
+                <div class="cart-icon">
+                    <i class="fa-solid fa-bag-shopping" style="color: #ffffff;"></i>
+                </div>
+                <div class="balance">
+                    <p class="font-bold text-white text-[14px]">0.00৳</p>
+                </div>
+                <span class="opacity-40 text-white">|</span>
+                <div class="userlogin">
+                    <p class="uppercase text-[14px] font-bold text-white">Login / Register</p>
+                </div>
+            </div>
+        </section>
+        <!-- Nav section -->
+         <nav class="bg-[#EDF5E1] flex justify-center items-center p-3.5">
+            <ul class="flex gap-4">
+                <li class="text-[18px] font-bold text-[#6B6D67]">হোম</li>
+                <span class="">|</span>
+                <li class="text-[18px] font-bold opacity-80 hover:cursor-pointer hover:text-[#6B6D67]">প্রকাশিত বই</li>
+                <span class="">|</span>
+                <li  class="text-[18px] font-bold opacity-80 hover:cursor-pointer hover:text-[#6B6D67]">বিষয় সমূহ</li>
+                <span class="">|</span>
+                <li  class="text-[18px] font-bold opacity-80 hover:cursor-pointer hover:text-[#6B6D67]">ছোটদের বই</li>
+                <span class="">|</span>
+                <li  class="text-[18px] font-bold opacity-80 hover:cursor-pointer hover:text-[#6B6D67]">আমাদের সম্পর্কে</li>
+            </ul>
+         </nav>
+         <hr>
+    </header>
+    <main>
+        <div class="banner-img container mx-auto flex justify-center mt-9">
+            <img src="./images/sukun-banner.png" alt="">
+        </div>
+        <section class="container mx-auto mt-14 text-center">
+            <h2
+                class="relative inline-block text-[#005736] font-medium text-[26px] mb-3 pb-2 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[3px] after:bg-[#005736]">
+                সদ্য প্রকাশিত বই
+            </h2>
+            <hr class="border-t border-gray-200 -mt-[3px] mb-2">
+            <div class="book-cards flex justify-center items-center gap-4 mb-8">
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Ramadan-Planner.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">প্রোডাক্টিভ রামাদান প্ল্যানার</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">85.00৳</p>
+                </div>
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Ramadan_01.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">সুকুন রামাদান প্যাকেজ</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">518.00৳</p>
+                </div>
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Word-Cards-Box.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">ছোটদের আরবি শব্দ ফ্ল্যাশ কার্ডস</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">298.00৳</p>
+                </div>
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Ali-O-Robot.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">আলি ও একটি আশ্চর্য রোবট</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">161.00৳</p>
+                </div>
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Palestine.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">ফিলিস্তিন : এক পবিত্র নগরের গল্প</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">200.00৳</p>
+                </div>
+            </div>
+            <button class="border-2 border-[#008854] rounded-md text-[18px] px-10 py-3 text-center text-[#008854] font-extrabold hover:cursor-pointer hover:bg-[#008854] hover:text-white hover:border-transparent duration-500">সকল বই <i class="fa-solid fa-angle-right"></i></button>
+        </section>
+        <section class="container mx-auto mt-16 text-center">
+            <h2
+                class="relative inline-block text-[#005736] font-medium text-[26px] mb-3 pb-2 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[3px] after:bg-[#005736]">
+                সুকুনের পাঠকপ্রিয় বই
+            </h2>
+            <hr class="border-t border-gray-200 -mt-[3px] mb-2">
+            <div class="book-cards flex justify-center items-center gap-4 mb-8">
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Ramadan-Planner.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">প্রোডাক্টিভ রামাদান প্ল্যানার</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">85.00৳</p>
+                </div>
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Ramadan_01.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">সুকুন রামাদান প্যাকেজ</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">518.00৳</p>
+                </div>
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Word-Cards-Box.jpg.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">ছোটদের আরবি শব্দ ফ্ল্যাশ কার্ডস</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">298.00৳</p>
+                </div>
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Ali-O-Robot.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">আলি ও একটি আশ্চর্য রোবট</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">161.00৳</p>
+                </div>
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Palestine.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">ফিলিস্তিন : এক পবিত্র নগরের গল্প</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">200.00৳</p>
+                </div>
+            </div>
+            <button class="border-2 border-[#008854] rounded-md text-[18px] px-10 py-3 text-center text-[#008854] font-extrabold hover:cursor-pointer hover:bg-[#008854] hover:text-white hover:border-transparent duration-500">পাঠকপ্রিয় সকল বই <i class="fa-solid fa-angle-right"></i></button>
+        </section>
+        <section class="container mx-auto mt-16 text-center">
+            <h2
+                class="relative inline-block text-[#005736] font-medium text-[26px] mb-3 pb-2 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[3px] after:bg-[#005736]">
+                মুসলিম জীবনচরিত
+            </h2>
+            <hr class="border-t border-gray-200 -mt-[3px] mb-2">
+            <div class="book-cards flex justify-center items-center gap-4 mb-8">
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Ramadan-Planner.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">প্রোডাক্টিভ রামাদান প্ল্যানার</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">85.00৳</p>
+                </div>
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Ramadan_01.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">সুকুন রামাদান প্যাকেজ</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">518.00৳</p>
+                </div>
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Word-Cards-Box.jpg.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">ছোটদের আরবি শব্দ ফ্ল্যাশ কার্ডস</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">298.00৳</p>
+                </div>
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Ali-O-Robot.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">আলি ও একটি আশ্চর্য রোবট</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">161.00৳</p>
+                </div>
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Palestine.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">ফিলিস্তিন : এক পবিত্র নগরের গল্প</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">200.00৳</p>
+                </div>
+            </div>
+            <button class="border-2 border-[#008854] rounded-md text-[18px] px-10 py-3 text-center text-[#008854] font-extrabold hover:cursor-pointer hover:bg-[#008854] hover:text-white hover:border-transparent duration-500">মুসলিম জীবনচরিত বিষয়ক বই <i class="fa-solid fa-angle-right"></i></button>
+        </section>
+        <section class="container mx-auto mt-16 text-center">
+            <h2
+                class="relative inline-block text-[#005736] font-medium text-[26px] mb-3 pb-2 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[3px] after:bg-[#005736]">
+                আমল ও আত্মশুদ্ধির বই
+            </h2>
+            <hr class="border-t border-gray-200 -mt-[3px] mb-2">
+            <div class="book-cards flex justify-center items-center gap-4 mb-8">
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Ramadan-Planner.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">প্রোডাক্টিভ রামাদান প্ল্যানার</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">85.00৳</p>
+                </div>
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Ramadan_01.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">সুকুন রামাদান প্যাকেজ</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">518.00৳</p>
+                </div>
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Word-Cards-Box.jpg.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">ছোটদের আরবি শব্দ ফ্ল্যাশ কার্ডস</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">298.00৳</p>
+                </div>
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Ali-O-Robot.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">আলি ও একটি আশ্চর্য রোবট</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">161.00৳</p>
+                </div>
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Palestine.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">ফিলিস্তিন : এক পবিত্র নগরের গল্প</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">200.00৳</p>
+                </div>
+            </div>
+            <button class="border-2 border-[#008854] rounded-md text-[18px] px-10 py-3 text-center text-[#008854] font-extrabold hover:cursor-pointer hover:bg-[#008854] hover:text-white hover:border-transparent duration-500">আমল ও আত্মশুদ্ধির সকল বই<i class="fa-solid fa-angle-right"></i></button>
+        </section>
+        <section class="container mx-auto mt-16 text-center">
+            <h2 class="relative inline-block text-[#005736] font-medium text-[26px] mb-3 pb-2 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[3px] after:bg-[#005736]">
+                তা’লীমের বই</h2>
+            <hr class="border-t border-gray-200 -mt-[3px] mb-2">
+            <div class="book-cards flex justify-center items-center gap-4 mb-8">
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Ramadan-Planner.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">প্রোডাক্টিভ রামাদান প্ল্যানার</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">85.00৳</p>
+                </div>
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Ramadan_01.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">সুকুন রামাদান প্যাকেজ</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">518.00৳</p>
+                </div>
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Word-Cards-Box.jpg.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">ছোটদের আরবি শব্দ ফ্ল্যাশ কার্ডস</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">298.00৳</p>
+                </div>
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Ali-O-Robot.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">আলি ও একটি আশ্চর্য রোবট</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">161.00৳</p>
+                </div>
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Palestine.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">ফিলিস্তিন : এক পবিত্র নগরের গল্প</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">200.00৳</p>
+                </div>
+            </div>
+            <button class="border-2 border-[#008854] rounded-md text-[18px] px-10 py-3 text-center text-[#008854] font-extrabold hover:cursor-pointer hover:bg-[#008854] hover:text-white hover:border-transparent duration-500">তা’লীমের সকল বই<i class="fa-solid fa-angle-right"></i></button>
+        </section>
+        <section class="container mx-auto mt-16 text-center">
+            <h2 class="relative inline-block text-[#005736] font-medium text-[26px] mb-3 pb-2 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[3px] after:bg-[#005736]">
+                ছোটদের যত প্রিয় বই</h2>
+            <hr class="border-t border-gray-200 -mt-[3px] mb-2">
+            <div class="book-cards flex justify-center items-center gap-4 mb-8">
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Ramadan-Planner.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">প্রোডাক্টিভ রামাদান প্ল্যানার</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">85.00৳</p>
+                </div>
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Ramadan_01.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">সুকুন রামাদান প্যাকেজ</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">518.00৳</p>
+                </div>
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Word-Cards-Box.jpg.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">ছোটদের আরবি শব্দ ফ্ল্যাশ কার্ডস</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">298.00৳</p>
+                </div>
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Ali-O-Robot.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">আলি ও একটি আশ্চর্য রোবট</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">161.00৳</p>
+                </div>
+                <div class="books w-[245px] bg-white flex flex-col justify-center items-center p-3 space-y-2 border border-gray-200">
+                    <img src="./images/Palestine.jpg" alt="" width="190" height="290px" class="rounded-md">
+                    <h4 class="font-bold text-[18px]">ফিলিস্তিন : এক পবিত্র নগরের গল্প</h4>
+                    <p class="text-[#008854] font-bold text-[20px]">200.00৳</p>
+                </div>
+            </div>
+            <button class="border-2 border-[#008854] rounded-md text-[18px] px-10 py-3 text-center text-[#008854] font-extrabold hover:cursor-pointer hover:bg-[#008854] hover:text-white hover:border-transparent duration-500">ছোটদের সকল বই<i class="fa-solid fa-angle-right"></i></button>
+        </section>
+        <footer class="bg-white py-7 mt-20">
+            <section class="bg-[#008854] py-5 flex justify-around items-center">
+                <div class="left-contents space-y-2.5">
+                    <img src="./images/footer-logo.svg" alt="" width="300px" height="78px">
+                    <p class="text-[16px] text-white opacity-90">শব্দের ইট দিয়ে ধীরে ধীরে নির্মিত হচ্ছে একটি স্বপ্নের ইমারত। <br> সেই ইমারত একদিন আকাশ ছুঁবে, ছড়িয়ে দিবে সত্য আর <br> সুন্দরের
+                    সুমহান বার্তা—দুনিয়াময়।</p>
+                </div>
+                <div class="right-contents space-y-5">
+                    <h4 class="text-[20px] font-semibold text-white">আমাদের ঠিকানা:</h4>
+                    <p class="text-[14px] text-white">৬৬, প্যারিদাস রোড, শেখ ম্যানশন, বাংলাবাজার, ঢাকা<br>
+                    মোবাইল: ০১৮১৯ ৮৮ ৭৭ ৫৫<br>
+                    ইমেইল: sukunpublishing@gmail.com</p>
+                    <div class="social-icons flex gap-3">
+                        <a href="#"><i class="fa-brands fa-facebook-f text-white text-sm"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter text-white text-sm"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram text-white text-sm"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube text-white text-sm"></i></a>
+                        <a href="#"><i class="fa-brands fa-telegram text-white text-sm"></i></a>
+                    </div>
+                </div>
+            </section>
+            <section class="flex justify-center items-center mt-3">
+            <p class="text-center"> <span class="opacity-50">© 2026 </span><b class="opacity-80">Sukun Publishing</b> <span class="opacity-50">| All Rights Reserved.</span></p>
+            </section>
+        </footer>
+    </main>
+</body>
+</html>
